@@ -1,4 +1,4 @@
-//equlibrium point int the array
+//equlibrium point in the array
 #include<iostream>
 using namespace std;
 int findEquilibrium(int arr[],int n){
