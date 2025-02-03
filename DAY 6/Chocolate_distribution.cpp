@@ -1,4 +1,4 @@
-//choclate distribution problem
+//choclate distribution problem(GFG)
 //input students : 5
 //output 6
 
