@@ -5,6 +5,7 @@
         "10.C": "cpp",
         "13.C": "cpp",
         "11.C": "cpp",
-        "1_second_largest_element.C": "cpp"
+        "1_second_largest_element.C": "cpp",
+        "ostream": "cpp"
     }
 }
