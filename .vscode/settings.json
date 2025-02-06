@@ -6,6 +6,12 @@
         "13.C": "cpp",
         "11.C": "cpp",
         "1_second_largest_element.C": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp"
     }
 }
