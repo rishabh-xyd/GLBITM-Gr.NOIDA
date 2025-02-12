@@ -12,4 +12,5 @@ int main(){
     for(int i=0;i<n;i++)
     printf("%d  ",fib(i));
     return 0;
+    
 }
