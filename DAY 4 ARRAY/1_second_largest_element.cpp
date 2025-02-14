@@ -6,8 +6,8 @@ int secondLargestElement(int arr[],int n){
     for(int i=1;i<n;i++)
     {
         if(arr[i]>arr[largest]){        //largest element
-        res=largest;                    //index of largest elelment
         largest=i;      
+        res=largest;                    //index of largest elelment
 
         }
     else if(arr[i]!=arr[largest])               //current elemet is not largest element
