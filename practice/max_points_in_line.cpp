@@ -1,4 +1,5 @@
 // leetcode 149
+//  brute force
 #include<iostream>
 #include<vector>
 using namespace std;
