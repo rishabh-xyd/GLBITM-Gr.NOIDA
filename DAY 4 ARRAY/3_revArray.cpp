@@ -2,12 +2,13 @@
 #include<iostream>
 using namespace std;
 int revArray(int arr[],int n){
-    int i=0;
-    while(n>i){
+    int i=0,j=n-1;
+    while(j>i){
         int temp=arr[i];
-        arr[i]=arr[n];
-        arr[n]=temp;
-
+        arr[i]=arr[j];
+        arr[j]=temp;
+        i++;
+        j--;
     }
 }
 int main(){
@@ -15,5 +16,8 @@ int main(){
     int n=sizeof(arr)/sizeof(arr[0]);
     
     revArray(arr,n);
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
 
 }
