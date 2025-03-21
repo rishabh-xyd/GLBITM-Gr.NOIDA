@@ -1,1 +1,0 @@
-//gcd and lcm
