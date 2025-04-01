@@ -1,0 +1,16 @@
+import java.util.*;
+public class Q3_check_power_of_two {
+    public static boolean IsPowerOfTwo(int n){
+        return (n>0) && ((n & (n-1)) == 0);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        if(IsPowerOfTwo(num)){
+            System.out.println(num +" is a power of 2.");
+        }
+        else{
+            System.out.println(num +" is NOT a power of 2.");
+        }
+    }
+}
